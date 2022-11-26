@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url('../fonts/Nexa Bold.otf');
+}
+
+body {
+    font-family: 'Nexa Bold', sans-serif;
+}
+
+p{
+    font-family: 'Nexa Bold', sans-serif;
+}   
+
+
+.logo {
+    width: 150px;
+    height: 150px;
+    display: inline;
+}
+
+.human{
+    background-color: lightgrey; 
+    border-radius: 10px; 
+    border: 2px solid black; 
+    padding: 10px;
+}
+
+.robot{
+    background-color: lightblue; 
+    border: 2px solid darkblue; 
+    border-radius: 10px; 
+    padding: 10px;
+    text-align: right;
+}
